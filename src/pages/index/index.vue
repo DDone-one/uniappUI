@@ -34,7 +34,7 @@
 					<button class="wave-btn" @click="onSign">Sign Up
 						<span v-for="(item,idx) in signSpanList" :key="idx" :style="{top: item.y + 'px', left: item.x + 'px'}">
 						</span>
-				</button>
+					</button>
 				</view>
 			</view>
 		</view>
